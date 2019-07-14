@@ -1,0 +1,166 @@
+/*
+Theme Name: Bits n Tricks
+Author: Zapbuild Team
+Author URI: http://zapbuild.com/
+Description: Bits n Tricks is a hub for latest technical updates about the web. It is a technical blog that shares tutorials for Software developers and Architects.
+Version: 1.1
+License: GNU General Public License v2 or later
+Tags: BitsnTricks, Technical Blog, Technical Posts, Software Developers, Software Architects, Technical Updates, Tutorials
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Reset
+ * 2.0 - Repeatable Patterns
+ * 3.0 - Basic Structure
+ * 4.0 - Header
+ * 5.0 - Navigation
+ * 6.0 - Content
+ *   6.1 - Post Thumbnail
+ *   6.2 - Entry Header
+ *   6.3 - Entry Meta
+ *   6.4 - Entry Content
+ *   6.5 - Galleries
+ *   6.6 - Post Formats
+ *   6.7 - Post/Image/Paging Navigation
+ *   6.8 - Attachments
+ *   6.9 - Archives
+ *   6.10 - Contributor Page
+ *   6.11 - 404 Page
+ *   6.12 - Full-width
+ *   6.13 - Singular
+ *   6.14 - Comments
+ * 7.0 - Sidebar
+ *   7.1 - Widgets
+ *   7.2 - Content Sidebar Widgets
+ * 8.0 - Footer
+ * 9.0 - Featured Content
+ * 10.0 - Multisite
+ * 11.0 - Media Queries
+ * 12.0 - Print
+ * -----------------------------------------------------------------------------
+ */
+@import url("font-awesome/css/font-awesome.min.css");
+
+/***************************************** Holiday Css Start ******************************************/
+.services_banner p{color:#fff;}
+.day_of_holiday{background:none repeat scroll 0 0 rgba(23, 23, 23, 0.5); -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; position:absolute; top:20px; left:20px; padding: 5px 0 20px;}
+.holiday_contant_oth {display: inline-block; margin: 0 0 60px; position: relative; width: 100%;}
+.holiday_images img{-webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px;}
+.day_of_holiday em{color:#fff; font-style:normal; width:100%; display:inline-block; text-align:center; font-weight: bold; font-size: 35px;}
+.day_of_holiday i{color:#fff; font-style:normal; width:100%; display:inline-block; text-align:center;}
+.holiday_contant_oth h4{color:#ed1c24; font-size: 16px; padding:30px 0px 15px 0px; margin:0px;}
+.holiday_contant_oth h4 a{color:#ed1c24;}
+.holiday_contant_oth p{line-height:23px;}
+.holiday_contant_oth:last-child{margin:0px;}
+.blog_sidebar .upcoming_events .widget-post-content h6 a:hover{color:#fff;}
+.read_more_holiday a{background:#ed1c24; color:#fff; border:none;}
+.read_more_holiday a:hover{background:#171717;}
+/***************************************** Holiday Css End ******************************************/
+
+
+
+
+/*************** Css Start Blog Page **************/
+.blog_banner {background: rgba(0, 0, 0, 0) url("images/blog_banner.png") no-repeat scroll 0 0;}
+.posted_contant{font-size:14px; color:#494949; background:rgba(0, 0, 0, 0) url("images/posted_icon.png") no-repeat scroll 0 13px; padding:9px 0 0 20px; float:left;}
+.posted_contant em{font-style:normal; color:#acacac;}
+/*.posted_contant i{font-style:normal; color:#ed1c24;}*/
+.posted_contant i a{color:#494949;}
+.posted_contant p a{color:#ed1c24;}
+.read_more_blog{float:right;}
+.video_blog{margin:20px 0px 0px 0px; display:inline-block; width:100%;}
+.photographs_section{}
+.cam_oth{float:left;}
+.cam{float:left;}
+.cam_divider{float:left; margin:15px 0 0 20px;}
+.oth_cam_div{display: inline-block; width: 100%; margin:30px 0px 0px 0px;}
+.social_media_icon_blog{display:inline-block; margin:10px 0 0 20px;}
+.social-ul_2{margin:-3px 0px 0px 20px; float:left;}
+.watch_text{display: inline-block; font-size: 16px; padding: 0 0 10px; width: 100%; color:#494949;}
+.square_blog{background:url("images/square_blog.png") repeat scroll 0 0; position:absolute; height:56px; width:56px; z-index:9; left:0px; top:0px;}
+/** social media icon here **/
+/*.social_media_icon_main{margin:-56px 0 0;padding-left:0;}*/
+.social-ul ul li a {background:url("images/social_media_sprite_3.png") no-repeat -1px -2px;width:57px;height:56px;transition:all ease-in-out 500ms;-o-transition:all ease-in-out 500ms;-webkit-transition:all ease-in-out 500ms;-moz-transition:all ease-in-out 500ms;border:none !important;margin:0 10px 0 0;}
+.social-ul ul li:hover,.social-ul ul li a:hover{background-color:transparent !important;}
+.social-ul ul li.social-facebook a{/*background-position:-1px -67px;*/background-position:-1px -61px;}
+.social-ul ul li.social-facebook a:hover{background-position:-1px -2px;}
+.social-ul ul li.social-twitter a{/*background-position:-71px -67px;*/background-position:-66px -61px;}
+.social-ul ul li.social-twitter a:hover{/*background-position:-71px -2px;*/background-position:-66px -2px;}
+.social-ul ul li.social-google a{/*background-position:-141px -67px;*/background-position:-130px -61px;}
+.social-ul ul li.social-google a:hover{/*background-position:-141px -2px;*/background-position:-130px -2px;}
+.social-ul ul li.social-pinterest a{/*background-position:-212px -67px;*/background-position:-195px -61px;}
+.social-ul ul li.social-pinterest a:hover{/*background-position:-212px -2px;*/background-position:-195px -2px;}
+.social-ul ul li.social-linkedin a{/*background-position:-282px -67px;*/background-position:-260px -61px;}
+.social-ul ul li.social-linkedin a:hover{/*background-position:-282px -2px;*/background-position:-260px -2px;}
+.social-ul ul li.social-vimeo a{/*background-position:-352px -67px;*/margin-right:0;background-position:-326px -61px;}
+.social-ul ul li.social-vimeo a:hover{/*background-position:-352px -2px;*/background-position:-326px -2px;}
+
+
+.social-ul_1 li{display:inline;}
+.map-icon-outer a{margin: 0 75px;}
+.facebook-icon{width:62px; height:56px; background:url("images/social_media_sprite_3.png") no-repeat  0px -60px; display: inline-block; z-index: 99; position: relative; overflow: hidden; }
+.facebook-icon .mask {background:url("images/social_media_sprite_3.png") no-repeat  0px 0px; top: -70px; left:0; transition: all 0.7s ease-out 0.0s; position: absolute; height: 56px; width: 62px; text-indent:-9999px;}
+.facebook-icon:hover .mask {animation: 0.9s linear 0s normal none 1 running bounceY; opacity: 1; top: 0; }
+.twitter-icon{width:62px; height:56px; background:url("images/social_media_sprite_3.png") no-repeat  -65px -60px; display: inline-block; z-index: 99; position: relative; overflow: hidden;}
+.twitter-icon .mask {background:url("images/social_media_sprite_3.png") no-repeat  -65px 0px; top: -70px; left:0; transition: all 0.7s ease-out 0.0s; position: absolute; height: 56px; width:62px; text-indent:-9999px;}
+.twitter-icon:hover .mask {animation: 0.9s linear 0s normal none 1 running bounceY; opacity: 1; top: 0;}
+.google-icon{width:62px; height:56px; background:url("images/social_media_sprite_3.png") no-repeat  -130px -60px; display: inline-block; z-index: 99; position: relative; overflow: hidden;}
+.google-icon .mask {background:url("images/social_media_sprite_3.png") no-repeat  -130px 0px; top: -70px; left:0; transition: all 0.7s ease-out 0.0s; position: absolute; height: 56px; width:62px; text-indent:-9999px;}
+.google-icon:hover .mask {animation: 0.9s linear 0s normal none 1 running bounceY; opacity: 1; top: 0;}
+.pinterest-icon{width:62px; height:56px; background:url("images/social_media_sprite_3.png") no-repeat  -195px -60px; display: inline-block; z-index: 99; position: relative; overflow: hidden;}
+.pinterest-icon .mask {background:url("images/social_media_sprite_3.png") no-repeat  -195px 0px; top: -70px; left:0; transition: all 0.7s ease-out 0.0s; position: absolute; height: 56px; width:62px; text-indent:-9999px;}
+.pinterest-icon:hover .mask {animation: 0.9s linear 0s normal none 1 running bounceY; opacity: 1; top: 0;}
+.linkedin-icon{width:62px; height:56px; background:url("images/social_media_sprite_3.png") no-repeat  -260px -60px; display: inline-block; z-index: 99; position: relative; overflow: hidden;}
+.linkedin-icon .mask {background:url("images/social_media_sprite_3.png") no-repeat  -260px 0px; top: -70px; left:0; transition: all 0.7s ease-out 0.0s; position: absolute; height: 56px; width:62px; text-indent:-9999px;}
+.linkedin-icon:hover .mask {animation: 0.9s linear 0s normal none 1 running bounceY; opacity: 1; top: 0;}
+
+
+.social-ul {float:left;}
+.pagination.loop-pagination{ text-align: left; }
+.pagination.loop-pagination a, .pagination.loop-pagination span.current{border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; -o-border-radius:2px; }
+.pagination.loop-pagination a{background:#f8f7f6; color:#9d9d9d; border-color:#ddd;}
+.pagination.loop-pagination a.prev, .pagination.loop-pagination a.next{background:#202020; color:#fff; border-color:#000;}
+.pagination.loop-pagination a.prev:hover, .pagination.loop-pagination a.next:hover, .pagination.loop-pagination a:hover{background:#ed1c24; color:#fff; border-color:#ed1c24;}
+.pagination.loop-pagination span.current{background:#ed1c24; border:1px solid #ed1c24; padding:2px 8px; color:#fff; margin:0px 5px;}
+.pagination.loop-pagination .fa{font-weight:bold;}
+
+
+.vsel-content {
+  clear: none !important;
+  float: none !important;
+  width: auto !important;
+  display: block !important;
+  padding: 0 0 0px 50px !important;
+  margin: 0 !important;
+  border-bottom: none !important;
+}
+.vsel-meta {
+  width: auto !important;
+  float: none !important;
+}
+h6.vsel-meta-title a {
+  color: #fff !important;
+}
+h6.vsel-meta-title{
+  margin: 0 0 5px;
+}
+.vsel-info.widget-post-img.widget_img{
+	width: 40px !important;
+}
+.amazingcarousel-image-fix-wrapper img{filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */ filter: gray; /* IE6-9 */-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */}
+.amazingcarousel-image-fix-wrapper img:hover{
+-webkit-filter: grayscale(0%);
+    filter: unset;
+}
+.amazingcarousel-image > div {
+  display: none!important;
+}
+.amazingcarousel-list-wrapper {
+    background: url('images/reel.png') repeat scroll 0 0 rgba(0, 0, 0, 0);
+    padding: 15px 0px;
+}
